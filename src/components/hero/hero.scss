@@ -1,0 +1,19 @@
+.hero {
+  height: 100vh;
+  max-width: 100%;
+  background: url(../../img/breaking-bad.webp) no-repeat center fixed;
+  background-size: cover;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+
+  &__list {
+    display: flex;
+    gap: 2rem;
+    font-size: 2rem;
+    background-color: #216869;
+    padding: 1rem 6rem;
+  }
+}

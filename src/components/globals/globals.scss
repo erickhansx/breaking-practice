@@ -1,0 +1,54 @@
+body {
+  box-sizing: border-box;
+
+  &::-webkit-scrollbar {
+    width: 2rem;
+  }
+
+  &::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #216869;
+    box-shadow: inset 0 0 6px #49a078;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #49a078;
+    outline: 1px solid #216869;
+  }
+}
+
+*,
+* ::after,
+* ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+// Non part of boilerplate.
+
+h1 {
+  font-size: 5rem;
+  margin-left: 4.5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
